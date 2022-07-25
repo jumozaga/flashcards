@@ -1,0 +1,7 @@
+
+{% load cards_tags %}
+
+<nav>
+    <a href="{% url 'card-list' %}">🗂 Cronograma da Semana</a>
+    {% boxes_as_links %}
+</nav>
